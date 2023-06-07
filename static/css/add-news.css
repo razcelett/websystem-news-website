@@ -1,0 +1,65 @@
+/* styles for add news tab */
+.main {
+  height: 1300px;
+}
+h1 {
+  text-align: center;
+  padding: 35px 0;
+}
+textarea {
+  width: 420px;
+  height: 250px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 9px 0 0 11px;
+}
+.abstract {
+  height: 70px;
+}
+input {
+  width: 290px;
+  height: 35px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.title, .category {
+  width: 350px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.picture {
+  width: 420px;
+  margin-top: 10px;
+}
+.category {
+  width: 190px;
+  height: 35px;
+  padding-left: 4px;
+}
+.option {
+  width: 16px;
+  height: 17px;
+  margin-left: 5px;
+}
+.button_yes, .button_no {
+  border: 1.5px solid black;
+  width: 135px;
+  height: 35px;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: #D9D9D9;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 7px;
+}
+.button_yes:hover {
+  background-color: #2EB82E;
+  color: white;
+}
+.button_no:hover {
+  background-color: #CC0000;
+  color: white;
+}
+.colorMessages {
+  margin-top: -10px;
+}

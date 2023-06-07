@@ -1,0 +1,22 @@
+/* styles for login tab */
+.main {
+  height: 450px;
+  padding-top: 50px;
+  padding-bottom: 82px;
+}
+input {
+  width: 96%;
+  height: 25px;
+  padding: 3px 4px 3px 10px;
+  margin-bottom: 7px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  border: none;
+  border-radius: 3px;
+}
+.main p {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #EA212D;
+}

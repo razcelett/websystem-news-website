@@ -1,0 +1,50 @@
+/* styles for registration tab */
+.main {
+    height: 620px;
+    padding-top: 50px;
+    padding-top: 100px;
+}
+input {
+    width: 96%;
+    height: 25px;
+    padding: 3px 4px 3px 10px;
+    margin-bottom: 0px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    border: none;
+    border-radius: 3px;
+}
+.colorMessages {
+    color: #EA212D;
+    position: absolute;
+    text-align: center;
+    margin-top: -8px;
+}
+.mes {
+    margin-top: -18px;
+}
+.pass_mes {
+    margin-top: 15px;
+}
+.showpass {
+    width: 15px;
+    height: 15px;
+    margin: 15px 3px 0 8px;
+    padding: 0;
+    position: relative;
+    box-shadow: none;
+}
+.main p {
+    position: absolute;
+    top: 740px;
+    left: 38%;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* media query for registration tab */
+@media (max-width: 600px) {
+    .main p {
+        top: 920px;
+        left: 25%;
+      }
+}
+/* end of media query for registration tab */
