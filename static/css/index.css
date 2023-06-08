@@ -277,45 +277,10 @@ footer {
 }
 /* end of media query for latest news portion in index */
 
-.header-link {
-  color: #000;
-  text-decoration: none;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-  display: none;
-  font-weight: 500;
-  display: inline-block;
-}
-.header-link--button {
-  background-color: #000;
-  color: #fff;
-  padding: 0.5rem 1.25rem;
-}
-.header-menu-button {
-  margin-left: 0.75rem;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  font: inherit;
-  position: relative;
-  padding-right: 30px;
-  font-weight: 500;
-}
-.header-menu-button:after, .header-menu-button:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 20px;
-  height: 2px;
-  background-color: currentcolor;
-  right: 0;
-  top: 8px;
-}
-.header-menu-button:after {
-  top: 16px;
-  width: 12px;
-  right: 8px;
-}
+
+
+/* Latest News Page Title */
+
 .page-title {
   margin-top: 20px;
   padding-left: 1.5rem;
@@ -350,6 +315,9 @@ footer {
   padding: 0 1.5rem;
   grid-column: span 5;
 }
+
+/* media query for latest news (for each row) portion in index */
+
 @media (min-width: 1200px) {
   .magazine-column {
     grid-column: span 1;
@@ -364,6 +332,9 @@ footer {
     grid-column: span 2;
   }
 }
+/* end of media query for latest news (for each row) portion in index */
+
+/* latest news image, links, title & abstract, author formats */
 .article + .article {
   padding-top: 2rem;
   margin-top: 2rem;
@@ -468,37 +439,5 @@ footer {
   margin-right: 0.5rem;
   vertical-align: middle;
 }
-.article-podcast-player {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-  margin-top: 1.25rem;
-}
-.podcast-play-button {
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 12px;
-  border: 0;
-  background-color: #000;
-  margin-right: 0.5rem;
-}
-.podcast-play-button svg {
-  max-width: 1rem;
-  max-height: 1rem;
-  fill: #FFF;
-}
-.podcast-progression {
-  flex: 1;
-  height: 8px;
-  border-radius: 99em;
-  background-color: #D9D4CD;
-  background-image: linear-gradient(to right, #F99970 30%, #D9D4CD 30%, #D9D4CD 100%);
-}
-.podcast-time {
-  font-weight: 500;
-  font-size: 1.125rem;
-  margin-left: 0.5rem;
-}
-:focus {
-  outline: 0;
-}
+
+/* End of Latest News */
