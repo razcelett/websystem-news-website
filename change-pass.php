@@ -72,26 +72,21 @@ session_start();
                     } 
                 }
                 ?>
-                
-                <div class="main">
-                    <div class="wrapper">
-                        <form method="POST" action="change-pass.php">
-                            <input name="current_password" id="password" type="password" class="pass" placeholder="Current Password" required/>
-                            <br/><input type="checkbox" class="showpass" onclick="myFunction1()">Show Password
-                            <br/><span id="messagePass" class="colorMessages mes"></span>
-                            <br/>
+                <form method="POST" action="change-pass.php">
+                    <input name="current_password" id="password" type="password" class="pass" placeholder="Current Password" required/>
+                    <br/><input type="checkbox" class="showpass" onclick="myFunction1()">Show Password
+                    <br/><span id="messagePass" class="colorMessages mes"></span>
+                    <br/>
 
-                            <input name="new_password" id="confirmPass" type="password" class="pass pass_mes" placeholder="New Password" required/>
-                            <br/><input type="checkbox" class="showpass" onclick="myFunction2()">Show Password
-                            <br/><span id="messageconfirmPass" class="colorMessages mes"></span>
-                            <br/>
+                    <input name="new_password" id="confirmPass" type="password" class="pass pass_mes" placeholder="New Password" required/>
+                    <br/><input type="checkbox" class="showpass" onclick="myFunction2()">Show Password
+                    <br/><span id="messageconfirmPass" class="colorMessages mes"></span>
+                    <br/>
                             
-                            <input type="reset" class="button_no" value="Undo" />
-                            <input type="button" class="button_no" value="Go Back" onclick="location.href='edit-profile.php'" />
-                            <input name="update" type="submit" class="button_yes" value="Change Password" />
-                        </form>
-                    </div>
-                </div>
+                    <input type="reset" class="button_no" value="Undo" />
+                    <input type="button" class="button_no" value="Go Back" onclick="location.href='edit-profile.php'" />
+                    <input name="update" type="submit" class="button_yes" value="Change Password" />
+                </form>
             </div>
         </div>
         
