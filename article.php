@@ -12,16 +12,16 @@ include 'connect.php';
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 		<link rel="shortcut icon" type="image/ico" href="static/img/favicon.ico"/>
+		<!-- setting the title of the webpage to the name of the specific news selected -->
 		<title>
-			<!-- setting the title of the webpage to the name of the specific news selected -->
 			<?php
-			$id = $_GET['id'];
-			$query = "SELECT title FROM news WHERE id=$id";
-			$result = mysqli_query($elements, $query);
-			while($row = mysqli_fetch_array($result)) {
-				echo $row['title'];
-			}
-			?>
+				$id = $_GET['id'];
+				$query = "SELECT title FROM news WHERE id=$id";
+				$result = mysqli_query($elements, $query);
+				while($row = mysqli_fetch_array($result)) {
+					echo $row['title'];
+				}
+				?>
 		</title>
 	</head>
 	<body>
